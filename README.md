@@ -41,7 +41,7 @@ List the ready features here:
 
 ## Screenshots
 
-[Screenshot from broken Homepage](/Users/anzconsulting/Documents/Projects_Codecademy/F1C1/resources/images/Image_broken_homepage.jpg)
+[Screenshot from broken Homepage](/Users/anzconsulting/Documents/Projects_Codecademy/F1C1/index_broken.html)
 <!--![Example screenshot](./img/screenshot.png)
  If you have screenshots you'd like to share, include them here. -->
 
