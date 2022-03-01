@@ -229,7 +229,7 @@ header .mobile {
   padding: 2rem;
   margin: 0px 1.25rem;
   background-color: white;
-  height: 36.125rem;
+  /* height: 36.125rem; */
 }
 
 .feature .image-container{
@@ -254,6 +254,7 @@ img {
 
 .feature h3 {
   font-size: 1rem;
+  margin-bottom: 3rem;
   line-height: 1.2;
   font-weight: 300;
   color: #4a4a4a;
@@ -272,7 +273,7 @@ img {
   }
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 450px) {
   #features-section {
     flex-flow: column;
     padding: 0;
@@ -312,6 +313,7 @@ img {
 #filters-section .images-container {
   max-width: 100%;
   padding: 0 1%;
+  display: inline-flex;
 }
 
 @media only screen and (max-width: 760px) {
@@ -335,7 +337,7 @@ img {
     line-height: 1.4;
   }
 
-  #filters-section .images-container {
+  #filters-section .image-container {
     padding: 0;
   }
 
