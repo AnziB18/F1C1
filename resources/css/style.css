@@ -350,13 +350,14 @@ img {
 
 #quotes-section {
   background-color: #f3f3f3;
+  display: inline-flex
 }
 
 #quotes-section content {
   padding: 5rem 0;
 }
 
-#quotes-section quote {
+#quotes-section .quote {
   padding-right: 1.875rem;
   font-family: "Palatino", serif;
   font-size: 1.875rem;
