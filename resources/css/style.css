@@ -2,8 +2,7 @@
 
 html {
   font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  display: grid;
+  font-size: 16px; 
 }
 
 .main-content {
@@ -61,7 +60,7 @@ header nav ul {
 nav li {
   padding-left: 3.5rem;
 }
-
+/* add style for navigation */
 nav a {
   vertical-align: bottom;
   line-height: 1.6;
