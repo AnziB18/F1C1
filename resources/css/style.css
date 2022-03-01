@@ -350,7 +350,8 @@ img {
 
 #quotes-section {
   background-color: #f3f3f3;
-  display: inline-flex
+   display: inline-flex;
+   border:2px solid #4a4a4a;
 }
 
 #quotes-section content {
@@ -358,16 +359,21 @@ img {
 }
 
 #quotes-section .quote {
+  align-self: center;
   padding-right: 1.875rem;
   font-family: "Palatino", serif;
   font-size: 1.875rem;
   line-height: 1.1;
   font-style: italic;
   color: #4a4a4a;
+  border: 1px solid yellow;
 }
 
-#quotes-section quote-citation {
+#quotes-section .quote-citation {
+  width: 20%;
   height: 1.875rem;
+  align-self: flex-end;
+  border: 1px solid green;
 }
 
 @media only screen and (max-width: 760px) {
