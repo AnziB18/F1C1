@@ -354,7 +354,7 @@ img {
    border:2px solid #4a4a4a;
 }
 
-#quotes-section content {
+#quotes-section .content {
   padding: 5rem 0;
 }
 
@@ -366,31 +366,34 @@ img {
   line-height: 1.1;
   font-style: italic;
   color: #4a4a4a;
-  border: 1px solid yellow;
+  margin: 80px 30px;
 }
 
 #quotes-section .quote-citation {
   width: 20%;
   height: 1.875rem;
-  align-self: flex-end;
-  border: 1px solid green;
+  align-self: center;
 }
 
-@media only screen and (max-width: 760px) {
-  #quotes-section content {
+@media only screen and (max-width: 450px) {
+  #quotes-section {
+    display: block;
+  }
+  #quotes-section .content {
     padding: 1.875rem .625rem;
   }
 
-  #quotes-section quote {
+  #quotes-section .quote {
     font-size: 1.5rem;
     line-height: 1.4;
   }
 
-  #quotes-section quote-citation {
+  #quotes-section .quote-citation {
     display: block;
     padding-top: 1rem;
     margin: auto;
   }
+  
 }
 
 /* Footer */
