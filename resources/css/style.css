@@ -351,7 +351,6 @@ img {
 #quotes-section {
   background-color: #f3f3f3;
    display: inline-flex;
-   border:2px solid #4a4a4a;
 }
 
 #quotes-section .content {
@@ -406,6 +405,7 @@ footer {
 footer .content {
   color: white;
   display: flex;
+  align-content: space-between;
   font-size: .75rem;
 }
 
@@ -413,7 +413,7 @@ footer .copyright {
   flex-grow: 1;
 }
 
-@media only screen and (min-width: 760px) {
+@media only screen and (min-width: 450px) {
   footer .content {
     font-size: .625rem;
   }
